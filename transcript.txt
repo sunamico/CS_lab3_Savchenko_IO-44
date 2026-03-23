@@ -1,0 +1,29 @@
+# Reading D:/modelsim/modelsim_ase/tcl/vsim/pref.tcl 
+# Loading project my_prroject
+# Compile of half_add_lab1.v was successful.
+vsim work.half_add
+# vsim work.half_add 
+# Loading work.half_add
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+quit -sim
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+do C:/Users/maxn2/Downloads/Stim.do
+run -all
+do C:/Users/maxn2/Downloads/Stim.do
+run -all
+quit -sim
+vsim -t ps work.half_add
+# vsim -t ps work.half_add 
+# Loading work.half_add
+add wave sim:/half_add/*
+run -all
+do C:/Users/maxn2/Downloads/Stim.do
+run -all
+restart -force
+do C:/Users/maxn2/Downloads/Stim.do
+run 160ps
